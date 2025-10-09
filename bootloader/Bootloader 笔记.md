@@ -95,6 +95,8 @@ void key_Task()
 
 **注意：**这里必须在 APP 程序运行前**手动更新一下 中断向量表的地址**，将此时的中断向量表更改为 APP 的中断向量表所在的位置（也就是当前的 APP程序 所在的首地址），然后在算是真正跳转到 APP 程序执行。
 
+<img src="./image/525bdaab2cc3c9b609cb5db7e879d081.png" style="zoom: 33%;" />
+
 #### Bootloader 程序
 
 Bootloader.c
